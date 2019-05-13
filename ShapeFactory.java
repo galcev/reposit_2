@@ -39,18 +39,18 @@
 /* 39 */       throw new Error("type is nusupported");
 /*    */     }
 /* 41 */     switch (shape_type % 10) {
-/* 42 */     case 1:  this.stroke = new java.awt.BasicStroke(3.0F);
+/* 42 */     case 1:  this.stroke = new java.awt.BasicStroke(7.0F);
 /* 43 */       break;
 /*    */     case 3: 
 /*    */       break;
 /* 46 */     case 4:  this.stroke = new java.awt.BasicStroke(7.0F);
 /* 47 */       break;
-/*    */     case 7: 
+/*    */     case 8: 
 /* 49 */       this.paint = new java.awt.GradientPaint(
 /* 50 */         -this.width, -this.height, java.awt.Color.white, 
 /* 51 */         this.width, this.height, java.awt.Color.gray, true);
 /* 52 */       break;
-/*    */     case 8: 
+/*    */     case 7: 
 /* 54 */       this.paint = java.awt.Color.red;
 /* 55 */       break;
 /*    */     case 2: case 5: case 6: default: 
